@@ -1,7 +1,10 @@
 # Kunkun Ask AI extension
 
 A simple extension to ask gemini api questions.
+
 Minimal, but works for my use cases.
+
+More information about [KunKun](https://github.com/kunkunsh/kunkun).
 
 ## Development
 
