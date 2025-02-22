@@ -9,8 +9,11 @@
   let showConfig = false;
   let apiKey = "";
 
+  let questionInput: HTMLTextAreaElement;
+
   onMount(() => {
     apiKey = localStorage.getItem("gemini-api-key") || "";
+    questionInput.focus();
   });
 
   async function askQuestion() {
@@ -123,6 +126,7 @@
             placeholder="Enter your question here..."
             rows="4"
             on:keydown={handleKeyDown}
+            bind:this={questionInput}
           ></textarea>
           <button
             class="px-4 py-2 bg-blue-500 text-white rounded-md"
