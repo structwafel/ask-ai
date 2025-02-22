@@ -106,8 +106,8 @@
       </div>
     {:else}
       <div class="space-y-4">
-        <div class="flex justify-between">
-          <h1 class="text-2xl font-bold">Ask AI</h1>
+        <div class="flex justify-center items-center">
+          <h1 class="text-2xl font-bold mr-4">Ask AI</h1>
           <button
             class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md"
             on:click={() => (showConfig = true)}
